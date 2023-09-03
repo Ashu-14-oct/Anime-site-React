@@ -1,0 +1,42 @@
+.trending-container{
+    /* background-image: url(https://images2.alphacoders.com/598/598673.jpg); */
+    background-color: rgb(54, 66, 131);
+    background-size: cover;
+    max-width: fit-content;
+    width: 100vw;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.heading {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    color: rgb(102, 163, 187);
+}
+
+.card-header img{
+    width: 200px;
+    margin: 10px;
+}
+
+.gallery {
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    cursor: pointer;
+}
+
+.anime-content:hover {
+    transform: scale(1.1);
+}
+
+.card-details {
+    display: inline-block;
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    color: rgb(174, 194, 211);
+}

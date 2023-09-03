@@ -1,0 +1,54 @@
+.check {
+    height: 100vh;
+    background-image: url(https://images3.alphacoders.com/132/1322308.jpeg);
+    background-size: cover;
+}
+.watch-container {
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+#anime-content {
+    margin: 50px;
+}
+
+#card-header img{
+    width: 300px;
+    margin: 10px;
+}
+
+#card-details {
+    font-size: 20px;
+    margin-left: 10px;
+    width: 180px;
+    color: rgb(241, 249, 255);
+}
+
+.watch-details {
+    font-size: 20px;
+    color: aliceblue;
+    display: flex;
+    position: absolute;
+    bottom: 69%;
+    left: 25%;
+}
+
+.anime-link {
+    position: absolute;
+    top: 250%;
+    border-bottom: 2px solid rgb(145, 47, 47);
+}
+
+.anime-link p:hover{
+    font-weight: bolder;
+    transform: scale(1.1);
+    color: rgb(245, 0, 0);
+}
+
+a{ 
+    color: aliceblue;
+}
+a:hover {
+    transform: scale(1.1);
+}
